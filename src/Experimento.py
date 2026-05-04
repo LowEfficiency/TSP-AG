@@ -146,7 +146,7 @@ class Experimento:
         plt.figure(figsize=(12, 6))
         for id_config, valores in self.convergencia_global.items():
             plt.plot(valores, label=id_config)
-        plt.title("Evolução da Convergência (Média das 20 execuções)")
+        plt.title("Evolução da Convergência (Média das 50 execuções)")
         plt.xlabel("Geração")
         plt.ylabel("Melhor Fitness")
         plt.legend(loc='upper right', ncol=2)
